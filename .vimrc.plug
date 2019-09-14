@@ -1,0 +1,21 @@
+call plug#begin('~/.vim/plugged')
+
+"Fugitive Vim Github Wrapper
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
+Plug 'itchyny/lightline.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'rking/ag.vim'
+Plug 'w0rp/ale'
+Plug 'tpope/vim-rails'
+Plug 'tomasiser/vim-code-dark'
+Plug 'kien/ctrlp.vim'
+Plug 'jacoborus/tender.vim'
+Plug 'kchmck/vim-coffee-script'
+Plug 'yalesov/vim-emblem'
+Plug 'MattesGroeger/vim-bookmarks'
+Plug 'vim-scripts/ZoomWin'
+Plug 'scrooloose/nerdcommenter'
+call plug#end()
+
+colorscheme codedark
